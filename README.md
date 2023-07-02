@@ -4,20 +4,19 @@ in designing computational algorithms for PVT simulation of reservoir fluids.
 
 I mostly program in _Python_ and _Fortran_, nowadays I'm really digging into
 bridging between the two with _f2py_, mostly to take old code into nice modern
-interfaces or to make new and high performant code with ease of use.
+interfaces or to make new and high-performant code with ease of use.
 
 My principal projects are:
 
-- [feos](https://www.github.com/fedebenelli/feos), a Fortran library for
+- [yaeos](https://www.github.com/fedebenelli/yaeos), a Fortran library for
   equations of state related calculations, with a heavy emphasis in
-  ease of extensibility and usage.
+  ease of extensibility and usage. Using both automatic differentiation
+  and analytical derivatives approaches to exploit the best of both worlds.
 
 - [PyForFluids](https://www.github.com/fedebenelli/pyforfluids), a Python
-  module that estimates thermodynamic properties of fluids based on Ecuations
+  module that estimates thermodynamic properties of fluids based on Equations
   of State. It uses Fortran code in the background to assure high performance
-  in the calculations. For some of the calculations it uses `feos` in the
-  background.
-
+  in the calculations.
 
 ## Hobbies
 Besides my work, I'm also a Linux enthusiast, right now I'm rocking Arch Linux
