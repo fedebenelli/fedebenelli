@@ -1,12 +1,19 @@
 # Hello! I'm Federico Benelli
 I'm a Chemical Engineer now doing my PhD in thermodynamics, specifically
 in designing computational algorithms for PVT simulation of reservoir fluids.
+My focus is mainly on phase diagrams tracing (isoplets, isotherms) of multicomponent
+mixtures using Equations of State.
 
-I mostly program in _Python_ and _Fortran_, nowadays I'm really digging into
+I mostly program in _Python_ and _Fortran_, nowadays I'm digging into
 bridging between the two with _f2py_, mostly to take old code into nice modern
-interfaces or to make new and high-performant code with ease of use.
+interfaces or to make new and high-performing code with ease of use.
 
 My principal projects are:
+
+- [fenveloeps](https://www.github.com/fedebenelli/fenvelopes) Fortran software
+  for multicomponent systems phase diagrams tracing with Equations of State.
+  Right not it provides the possibility of calculation of PT (isoplets) and
+  Px (isotherms) using Cubic Equations of State.
 
 - [yaeos](https://www.github.com/fedebenelli/yaeos), a Fortran library for
   equations of state related calculations, with a heavy emphasis in
